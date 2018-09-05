@@ -1,4 +1,27 @@
 <p>
-  sample-data works!
+	Basic example of the Student Details
 </p>
+<!-- <input type="text" [(ngModel)]='name'><br>
+
+Name:{{name}}<br> -->
+<!-- <input type="text" [(ngModel)]='age'><br> -->
+<!-- Age:{{age}}<br> -->
+<!-- {{1+4}}<br><br> -->
+
+
+<input type="text"  placeholder="Name" [(ngModel)]='name'><br>
+<input type="text"  placeholder="age" [(ngModel)]='age'><br>
+<input type="text"  placeholder="DOB" [(ngModel)]='DOB'><br>
+<input type="text"  placeholder="Department" [(ngModel)]='Department'><br>
+<button class="btn" id="mainId">
+	submit
+</button><br>
+<div class="container" id="nameId" style="display: none;">
+	Details:<br>
+	Name is: {{name}}<br>
+	Age is:{{age}}<br>
+	DateOfBirth is:{{DOB}}<br>
+	Department is:{{Department}}
+</div>
+
 
